@@ -1,10 +1,15 @@
-*body{
-   background-color: black;
+body *{
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
 
 .bg-blue{
-    background-color: rgb(16, 173, 221) !important; 
+    background-color: rgb(86, 200, 235) !important; 
+}
+
+h5{ 
+    background-color: black;
+    color: white;
+    padding: 25px;
 }
