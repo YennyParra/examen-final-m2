@@ -13,6 +13,11 @@ h5{
     color: white;
     padding: 25px;
 }
-#card { 
-    padding-bottom: 100px;
+p{ 
+    height: auto;
+    font-family: 'Open Sans';
+    font-size:medium; 
+    
+    
 }
+
