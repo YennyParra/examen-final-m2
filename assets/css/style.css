@@ -5,11 +5,14 @@ body *{
 }
 
 .bg-blue{
-    background-color: rgb(86, 200, 235) !important; 
+    background-color: rgb(38, 168, 190) !important; 
 }
 
 h5{ 
     background-color: black;
     color: white;
     padding: 25px;
+}
+#card { 
+    padding-bottom: 100px;
 }
