@@ -1,11 +1,20 @@
 body *{
+    background-color: black;
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
 
-.bg-blue{
-    background-color: rgb(38, 168, 190) !important; 
+
+.navbar{
+background-color: rgb(40, 168, 241);!important
+background: rgb(40,168,241):display ;!important
+}
+
+.container{ 
+background: rgb(40, 168, 241) ;
+    
+    
 }
 
 h5{ 
@@ -13,11 +22,16 @@ h5{
     color: white;
     padding: 25px;
 }
+
 p{ 
     height: auto;
     font-family: 'Open Sans';
     font-size:medium; 
+    }
+.linea{ 
+    border-top: white-soild;
+}   
     
-    
-}
-
+form{ 
+    padding: 80px 80px 50px 25px;
+    }
