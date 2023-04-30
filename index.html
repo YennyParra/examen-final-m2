@@ -14,8 +14,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-transparent sticky-top">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
+    <div class="container" >
       <a class="navbar-brand" href="#"><img width="25" src="assets/img/viajes.svg"> Viajes Chile </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +31,7 @@
       </div>
     </div>
   </nav>
-  </nav>
-
- 
+   
   <div class="container-carousel">
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
@@ -57,64 +55,66 @@
       </button>
     </div>
   </div>
-  <section>
-    <div class="container-fluid ">
-      <div class="row justify-content-around bg-blue">
+             <! -- seccion identificacion --!>
+    <div class="container-fluid d-none d-sm-block  quienes somos">
+      <div class="row justify-content-around bg-black">
         <h5 class="text-center pb-2 text-secondary border-bottom border-black display 10">¿QUIÉNES SOMOS?</h5>
-        <! .. se agrega linea para separar parrafos..!>
-          <hr>
+        <!.. se agrega linea para separar parrafos..!>
+          <hr class="border-1 bg-white text-white">
           <div class="card bg-black" style="width:18rem; ">
-            <i class="fa-sharp fa-solid fa-plane text-center bg-blue" style= "bg-blue" ></i>
+            <i class="fa-sharp fa-solid fa-plane bg-blue fa-2x text-center"></i>
             <div class="card-body">
               <div class="card-body margin: 0">
-                <p class="card-text bg-blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis corporis
+                <p class="card-text text-white"  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis corporis
                   est qui dolorem perferendis hic adipisci dolor aliquam officia ratione, tempore obcaecati deserunt aut
                   fuga reiciendis aperiam iure deleniti..</p>
               </div>
             </div>
           </div>
           <div class="card bg-black" style="width:18rem; ">
-            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis amet totam, praesentium
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis amet totam, praesentium
               quisquam, reiciendis cumque sequi eveniet a alias laudantium ex nihil! Quos doloribus, accusantium dolores
               distinctio perferendis aspernatur tempore?.</p>
-            <i class="fa-sharp fa-solid fa-mountain-sun bg-blue style=color:blue text-center "></i>
+            <i class="fa-sharp fa-solid fa-mountain-sun bg-blue style=color:white text-center fa-2x"></i>
             <div class="card-body margin: 0">
             </div>
           </div>
           <div class="card bg-black" style="width:18rem;margin: 0%;">
-            <i class="fa-sharp fa-solid fa-map-location-dot bg-blue style=color:white widht:25px text-center "></i>
+            <i class="fa-sharp fa-solid fa-map-location-dot bg-blue text-center fa-2x"></i>
             <div class="card-body">
-              <p class="card-text color white-bold bg-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <p class="card-text text-white bg-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Saepe, natus, reiciendis quas totam itaque illum praesentium, accusamus explicabo eaque quos iusto
                 officiis. Quasi reiciendis, suscipit vero culpa dignissimos vitae obcaecati!</p>
             </div>
           </div>
       </div>
+<!--seccion destacados-->
 
+<div class="container-fluid pb-5 paddin: 0 bg-black" id="destacados">
+  <h5 class="text-center text-white bg-black fs-4">DESTACADOS</h5>
+<hr class="border-1 bg-white text-white">
+                   <!--se agrgan tarjetas de paisajes -->
 
-      <h4 class="text-center bg-black pb-2 text-secondary border-bottom border-black display 10">DESTACADOS</h4>
-      <hr>
-      <!..se agrgan tarjetas de paisajes..>
-        <div class=" row justify-content-around">
-          <div class="card bg-blue" style="width: 20rem;">
+      <div class=" row justify-content-around bg-black">
+          <div class="card bg-blue" style="width: 18rem;">
             <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat natus magnam error.
+              <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat natus magnam error.
                 Aspernatur ipsam repudiandae molestiae nulla nemo eligendi deleniti alias, deserunt pariatur, in autem
                 adipisci? Voluptas itaque hic dolorum..</p>
             </div>
           </div>
-          <div class="card bg-blue" style="width: 20rem;">
+          <div class="card bg-blue" style="width: 18rem;">
             <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
           <div class="card bg-blue" style="width: 20rem;">
             <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text color: white-bold">Some quick example text to build on the card title and make up the
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
             </div>
@@ -122,47 +122,49 @@
           <div class="card bg-blue" style="width: 20rem;">
             <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
         </div>
-        <h4 class="text-center bg-black my-5 pb-2 text-secondary border-bottom border-black display 8">CONTACTO</h4>
-    </div>
-    <hr>
-    <form class="formulario bg-black">
-      <div class="mb-3">
-        <label for="exampleInputNomnre1" class="form-label">Nombre</label>
-        <input type="nombre" class="form-control" id="exampleInputNomnre1" aria-describedby="Nombre">
       </div>
+    </div>
+      <!-- seccion contacto-->
+
+      <h5 class="text-center text-white bg-black fs-4">CONTACTO </h5>
+<hr class="border-1 text-white">
+        <form class="formulario bg-black">
+      <div class="mb-3">
+        <label for="exampleInputNomnre1" class="form-label text-white">Nombre</label>
+        <input type="nombre" class="form-control text-white" id="exampleInputNomnre1" aria-describedby="Nombre">
+      </div>
+      <div class="row">
       <div class="mb-3 ">
-        <label for="exampleInputasunto1" class="form-label">Asunto</label>
+        <label for="exampleInputasunto1" class="form-label text-white">Asunto</label>
         <input type="asunto" class="form-control" id="exampleInputasunto1">
       </div>
 
       <div class="mb-2 w 50px">
-        <label for="exampleInputamensaje1" class="form-label ">Mensaje</label>
+        <label for="exampleInputamensaje1" class="form-label text-white ">Mensaje</label>
         <textarea class="form-control" rows="5" aria-label="with textarea"></textarea>
 
-
       </div>
-
-
+      </div>
       <button type="enviar" class="btn btn-primary">Enviar</button>
     </form>
-    </div>
+    
 
-    </div>
-
-  </section>
-
-  <footer class="d-flex bg-blue justify-content-center py-4">
-    <h4 text-left>VIAJES CHILE </h4>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-facebook"></i>
-
+    <!--footer--> 
+  <footer class="container-fluid justify-content-center bg-info pt-3 pb-3">
+    <div class="row d-flex justify-content-center">
+      <div class="col-3 viajes-chile fs-2 text-white">Viajes Chile</div>
+      <div class="col-5 d-flex justify-content-end">
+    
+    <i class="fa-brands fa-github fa-2x pe-2" style="color: #ffffff;"></i>
+    <i class="fa-brands fa-linkedin fa-2x pe-2" style="color: #ffffff;"></i>
+    <i class="fa-brands fa-twitter fa-2x pe-2" style="color: #ffffff;"></i>
+    <i class="fa-brands fa-facebook fa-2x pe-2" style="color: #ffffff;"></i>
+  </div>
   </footer>
 
 
